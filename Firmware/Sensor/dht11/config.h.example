@@ -1,0 +1,9 @@
+const char *ssid = "";
+const char *password = "";
+const char *mqttDomain = "";
+const unsigned short mqttPort = 8883;
+const char *mqttID[] = {"",
+                        ""};
+const char *mqttUsername = "";
+const char *mqttPassword = "";
+const char *fingerprint = "";
