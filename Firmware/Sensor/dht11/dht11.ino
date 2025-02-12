@@ -27,6 +27,11 @@ void setup()
     Serial.println("");
 
     // WiFi setup
+    Serial.print("[WiFi] Connecting WiFi with ssid: ");
+    Serial.print(ssid);
+    Serial.print(" Password: ");
+    Serial.print(password);
+    Serial.println();
     WiFi.mode(WIFI_STA);
     WiFi.begin(ssid, password);
 #ifdef SSLEnable
